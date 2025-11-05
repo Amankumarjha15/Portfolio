@@ -138,7 +138,7 @@ function App() {
 
             <BlinkButton classname='inline-block px-6 py-2 border-[1px] border-[#666668] bg-[#474749] hover:bg-[#5a5a5c] text-white rounded-3xl relative 
           transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]' text="Explore Projects" func={() => scrollToSection('project')} />
-            
+{/*             
             <BlinkButton
               classname='inline-block px-6 py-2 border-[1px] border-[#666668]  dark:text-white rounded-3xl relative not-dark:text-black
           transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]'
@@ -151,7 +151,7 @@ function App() {
           link.click();
           document.body.removeChild(link);
               }}
-            />
+            /> */}
 
             <BlinkButton classname='inline-block px-6 py-2 border-[1px] border-[#666668]  dark:text-white rounded-3xl relative not-dark:text-black
           transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]' text='Get In Touch' func={() => scrollToSection('contact')}></BlinkButton>
