@@ -1,6 +1,6 @@
 import styles from '../styles/Skills.module.css';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaDocker } from 'react-icons/fa';
-import {  SiTypescript, SiJavascript, SiExpress, SiMongodb, SiTailwindcss, SiRedux, SiRedis, SiRabbitmq, SiPostgresql, SiNextdotjs } from 'react-icons/si';
+import {  SiTypescript, SiJavascript, SiExpress, SiMongodb, SiTailwindcss, SiRedux, SiRedis, SiPostgresql, SiNextdotjs } from 'react-icons/si';
 
 const Skills = () => {
     const skillsList = [
