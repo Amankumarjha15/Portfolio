@@ -137,27 +137,28 @@ function App() {
 
 
             <BlinkButton classname='inline-block px-6 py-2 border-[1px] border-[#666668] bg-[#474749] hover:bg-[#5a5a5c] text-white rounded-3xl relative 
-                transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]' text="Explore Projects" func={() => scrollToSection('project')} />
+          transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]' text="Explore Projects" func={() => scrollToSection('project')} />
             
-            {/* <BlinkButton
-  classname='inline-block px-6 py-2 border-[1px] border-[#666668]  dark:text-white rounded-3xl relative not-dark:text-black
-                transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]'
-  text="Download Resume"
-  func={() => {
-    const link = document.createElement('a');
-    link.href = ''; // resume path in public folder
-    link.download = 'Aman_Kumar_Jha_Resume.pdf'; // name of the file to be downloaded
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }}
-/> */}
+            <BlinkButton
+              classname='inline-block px-6 py-2 border-[1px] border-[#666668]  dark:text-white rounded-3xl relative not-dark:text-black
+          transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]'
+              text="Download Resume"
+              func={() => {
+          const link = document.createElement('a');
+          link.href = '/assets/Aman_Kumar_Jha_Resume.pdf';
+          link.download = 'Aman_Kumar_Jha_Resume.pdf';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+              }}
+            />
 
             <BlinkButton classname='inline-block px-6 py-2 border-[1px] border-[#666668]  dark:text-white rounded-3xl relative not-dark:text-black
-                transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]' text='Get In Touch' func={() => scrollToSection('contact')}></BlinkButton>
+          transition-colors duration-300 hover:animate-[border-blink_1s_ease-in-out_infinite]' text='Get In Touch' func={() => scrollToSection('contact')}></BlinkButton>
           </div>
         </div>
-      </div>
+            </div>
+
 
       <div id='about' className="mt-20 container max-w-6xl px-4 mx-auto">
         <h2 className="text-3xl text-center mt-10 font-bold bg-gradient-to-r from-white to-[#333] bg-clip-text text-transparent">Simplicity in Code, Sophistication in Impact</h2>
