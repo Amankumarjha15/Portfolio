@@ -145,7 +145,7 @@ function App() {
               text="Download Resume"
               func={() => {
           const link = document.createElement('a');
-          link.href = '/assets/Aman_Kumar_Jha_Resume.pdf';
+          link.href = '/assets/amankumarjha_resume (3).pdf';
           link.download = 'Aman_Kumar_Jha_Resume.pdf';
           document.body.appendChild(link);
           link.click();
