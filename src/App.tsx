@@ -133,6 +133,10 @@ function App() {
            Full-Stack Developer | System-First Thinker | Eager Learner
           </p>
 
+          <p className='text-[#5C5C60] my-5 font-bold'>
+           Email :- amanjhakr6299@gmail.com 
+          </p>
+
           <div className='flex gap-5 justify-center my-5'>
 
 

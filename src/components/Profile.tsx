@@ -10,7 +10,7 @@ const Profile = () => {
                 </div>
                 <div className='md:w-3/5 flex flex-col justify-center'>
                     <h2 className='font-semibold text-xl'>
-                        My Approach
+                        My learnings
                     </h2>
                     <p className='py-3 dark:text-[#5C5C60]'>
                         Hi, I’m Aman Kumar Jha, a passionate Full Stack Developer with a strong focus on backend development and building scalable, high-performance systems. I enjoy turning complex problems into simple, efficient solutions.
